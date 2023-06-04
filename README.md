@@ -21,3 +21,13 @@ To use the script simply execute the following command
 ```{bash}
 python branch_ages --p <path_to_git_repository>
 ```
+
+## Branch Differences
+
+This script returns a lust of added, modified and deleted files between the two provided files.
+
+The following shows the usage of the script:
+
+```{bash}
+python branch_diff.py --p=<path_to_git_repository> --b=<base_branch> --ref=<reference_branch>
+```
